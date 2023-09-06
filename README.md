@@ -20,12 +20,25 @@
 
 ## latex版使用说明
 
+### 编译环境设置
+
+- 编译器选择 `XeLaTeX` 
+- 主文件为 `slide.tex`
+
+![image-20230904201347448](https://lgy0404.oss-cn-shanghai.aliyuncs.com/typoraimage-20230904201347448.png)
+
+
+
 ### 比例修改
 
 - 支持4:3和16:9，默认比例为4:3
 - 在`slide.tex`首行中将 `\documentclass{beamer}` 注释掉，并取消 `%\documentclass[aspectratio=169]{beamer}` 的注释即可
 
+### 更新计划
 
+- 支持标题行加粗
+- 支持不同的字体
+- 支持不同的主题颜色
 
 ## ppt版使用说明
 
